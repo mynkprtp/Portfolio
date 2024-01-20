@@ -46,9 +46,13 @@ export default function Experience() {
             >
               <h3 className="font-semibold capitalize">{item.title}</h3>
               <p className="font-normal !mt-0">{item.location}</p>
-              <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
-                {item.description}
-              </p>
+              <div className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
+                <ul className="flex flex-col sm:mt-auto list-disc">
+                  {item.description.map((val,index)=>(
+                    <li key={index}>{val}</li>
+                  ))}
+              </ul>
+              </div>
               <div className="pt-3">
               <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
                 {item.tags.map((tag, index) => (

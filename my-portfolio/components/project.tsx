@@ -4,7 +4,6 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { BsGithub} from "react-icons/bs";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -64,7 +63,6 @@ export default function Project({
             ))}
           </ul>
         </div>
-
         <Image
           src={imageUrl}
           alt="Project I worked on"

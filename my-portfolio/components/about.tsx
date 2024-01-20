@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-          I'm a Software Engineer. I have <span className="italic">1.5 years</span> of technical experience.
+          I'm a Software Engineer with <span className="italic">1.5 years</span> of technical experience.
           I have completed my Bachelor's degree in Information Technology from Kamla Nehru Institute of Technology, Sultanpur (2018-2022).
       </p>
       <p className="mb-3">

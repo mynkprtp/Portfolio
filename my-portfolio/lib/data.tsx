@@ -42,22 +42,24 @@ export const achievements = ["Secured Global Rank 2537 in Google HashCode 2021."
 
 export const experiencesData = [
   {
-    title: "SDE Intern",
-    location: "Wisteli Informatics, Noida",
-    description:
-      "I implemented several components in Angular 8 for their dashboard. I integrated Angular Material design principles, helping them enhance the overall user experience.",
-    icon: React.createElement(CgWorkAlt),
-    tags: ["Angular", "Javascript", "NodeJS"],
-    date: "Dec 2021 - Feb 2022",
-  },
-  {
     title: "Sytems Engineer",
     location: "Tata Consultancy Services, Noida",
-    description:
-      "I work in an Agile environment across the client including India and China. I am responsible for designing and developing cost effective solutions for Portal and Utility application.",
+    description: ["Created custom Java actions to implement complex backend functionalities, extending the platform’s capabilities.",
+    "Reduced manual data synchronization efforts by integrating Oracle Database using JDBC, seamlessly sync millions of records.",
+    "Utilized RESTful APIs and other OData to ensure real-time data exchange among microservices.",
+    "Developed extensive microflows, and dynamic user interfaces for Portal Dashboard and Utility.",
+  "Worked using Agile Methodology in project, across the client including India and China"],
     icon: React.createElement(FaReact),
     tags: ["Java", "SQL", "Oracle", "JDBC", "Javascript", "Mendix","HTML/CSS" ],
     date: "Aug 2022 - present",
+  },
+  {
+    title: "SDE Intern",
+    location: "Wisteli Informatics, Noida",
+    description: ["I implemented several components in Angular 8 for their dashboard.", "I integrated Angular Material design principles, helping them enhance the overall user experience."],
+    icon: React.createElement(CgWorkAlt),
+    tags: ["Angular", "Javascript", "NodeJS"],
+    date: "Dec 2021 - Feb 2022",
   },
 ] as const;
 
