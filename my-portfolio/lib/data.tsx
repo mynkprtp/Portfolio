@@ -1,7 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
 import connectus from "@/public/connectus.png";
 import travelsnaps from "@/public/travelsnaps.png";
 import ftribe from "@/public/3ftribe.png";
@@ -44,21 +43,23 @@ export const experiencesData = [
   {
     title: "Sytems Engineer",
     location: "Tata Consultancy Services, Noida",
-    description: ["Created custom Java actions to implement complex backend functionalities, extending the platform’s capabilities.",
-    "Reduced manual data synchronization efforts by integrating Oracle Database using JDBC, seamlessly sync millions of records.",
-    "Utilized RESTful APIs and other OData to ensure real-time data exchange among microservices.",
-    "Developed extensive microflows, and dynamic user interfaces for Portal Dashboard and Utility.",
+    description: ["Restructured the micro-services API for incoming requests, resulting in 25 % improvement in throughput."
+    ,"Integrated Oracle Database with PostgreSQL, seamlessly sync 10000 records daily."
+    ,"Improved query response time by 40 % through database indexing , caching and query optimization techniques."
+    ,"Developed schedulers for notifications service using Java for Portal Dashboard and Utility application."
+    ,"Led a team of 13 developers, delivered new requirements from scratch to Production within time, exceeding client expectations.",
   "Worked using Agile Methodology in project, across the client including India and China"],
     icon: React.createElement(FaReact),
-    tags: ["Java", "SQL", "Oracle", "JDBC", "Javascript", "Mendix","HTML/CSS" ],
+    tags: ["Java", "SQL", "Oracle", "JDBC", "Javascript","HTML/CSS","Agile","Git"],
     date: "Aug 2022 - present",
   },
   {
     title: "SDE Intern",
     location: "Wisteli Informatics, Noida",
-    description: ["I implemented several components in Angular 8 for their dashboard.", "I integrated Angular Material design principles, helping them enhance the overall user experience."],
+    description: ["Leveraged D3.js to build a real-time graph rendering engine, enabling seamless updates and responsiveness within the user dashboard."
+    ,"Restructured reusable Angular 8 components for the landing page, resulting in 10 % improvement in user engagement."],
     icon: React.createElement(CgWorkAlt),
-    tags: ["Angular", "Javascript", "NodeJS"],
+    tags: ["Angular", "Javascript", "ExressJs","NodeJS","Typescript"],
     date: "Dec 2021 - Feb 2022",
   },
 ] as const;
@@ -84,7 +85,7 @@ export const projectsData = [
     title: "3FTribe",
     link: "https://github.com/mynkprtp/3FTribe",
     description:
-      "A client app for peronal training. It allows users to connect using Calendly. It utilises localDB for CART related features",
+      "Delivered a fullstack app for promoting peronal training. It allows users to connect using Calendly. It utilises localDB for CART related features",
     tags: ["Javascript", "Angular.js", "HTML/CSS", "Email.js", "Stripe"],
     imageUrl: ftribe,
   },
