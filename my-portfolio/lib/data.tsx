@@ -41,7 +41,7 @@ export const achievements = ["Secured Global Rank 2537 in Google HashCode 2021."
 
 export const experiencesData = [
   {
-    title: "Sytems Engineer",
+    title: "Software Engineer",
     location: "Tata Consultancy Services, Noida",
     description: ["Restructured the micro-services API for incoming requests, resulting in 25 % improvement in throughput."
     ,"Integrated Oracle Database with PostgreSQL, seamlessly sync 10000 records daily."
