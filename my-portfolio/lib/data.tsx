@@ -2,8 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import connectus from "@/public/connectus.png";
+import kanban from "@/public/Kanban.jpg";
 import travelsnaps from "@/public/travelsnaps.png";
 import ftribe from "@/public/3ftribe.png";
+import { title } from "process";
 
 export const links = [
   {
@@ -59,17 +61,33 @@ export const experiencesData = [
     description: ["Leveraged D3.js to build a real-time graph rendering engine, enabling seamless updates and responsiveness within the user dashboard."
     ,"Restructured reusable Angular 8 components for the landing page, resulting in 10 % improvement in user engagement."],
     icon: React.createElement(CgWorkAlt),
-    tags: ["Angular", "Javascript", "ExressJs","NodeJS","Typescript"],
+    tags: ["Angular", "Javascript", "ExressJs","Typescript"],
     date: "Dec 2021 - Feb 2022",
   },
 ] as const;
 
 export const projectsData = [
   {
+    title: "3FTribe",
+    link: "https://github.com/mynkprtp/3FTribe",
+    description:
+      "Delivered a fullstack app for promoting peronal training. It allows users to connect using Calendly. It utilises localDB for CART related features",
+    tags: ["Javascript", "Angular.js", "HTML/CSS", "Email.js", "Stripe"],
+    imageUrl: ftribe,
+  },
+  {
+    title: "Kanban - Make Notes",
+    link: "https://kanban-app-gamma-seven.vercel.app/",
+    description: 
+    "Developed a full stack Kanban application to make beautiful notes with features to edit and use emojis. Implemented user authentication and authorization with JWT and bcrypt for secure access. ",
+    tags: ["React", "Node.js", "Express.js", "MongoDB", "JWT", "Javascript", "Redux"],
+    imageUrl: kanban
+  },
+  {
     title: "ConnectUs",
     link: "https://github.com/AMAN1210/COLLEGE_SOCIAL_NETWORK",
     description:
-      "I worked on the backend of this application. It was our final year project. Here College peers can connect and use features like search, post and chat.",
+      "I led the backend of this application. It was our final year project. Here College peers can connect and use features like search, post and chat.",
     tags: ["Node.js", "Express.js", "MongoDB", "Socket.io", "Javascript"],
     imageUrl: connectus,
   },
@@ -81,14 +99,6 @@ export const projectsData = [
     tags: ["React", "Node.js", "Express.js", "MongoDB", "JWT", "Javascript","API"],
     imageUrl: travelsnaps,
   },
-  {
-    title: "3FTribe",
-    link: "https://github.com/mynkprtp/3FTribe",
-    description:
-      "Delivered a fullstack app for promoting peronal training. It allows users to connect using Calendly. It utilises localDB for CART related features",
-    tags: ["Javascript", "Angular.js", "HTML/CSS", "Email.js", "Stripe"],
-    imageUrl: ftribe,
-  },
 ] as const;
 
 export const skillsData = [
@@ -98,9 +108,9 @@ export const skillsData = [
   "Java",
   "HTML/CSS",
   "JavaScript",
-  "TypeScript",
-  "React",
   "Angular",
+  "React",
+  "TypeScript",
   "Node.js",
   "Git",
   "MongoDB",

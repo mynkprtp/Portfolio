@@ -64,7 +64,7 @@ export default function Intro() {
       >
         <div className="font-bold">Hello, I'm Mayank Pratap Singh.</div>
         <div className="font-bold">Software Engineer</div>
-        <p className="text-sm">1.5 yrs of experience</p>
+        <p className="text-sm">2 yrs of experience</p>
       </motion.h1>
 
       <motion.div
@@ -87,14 +87,14 @@ export default function Intro() {
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
-        <a
+        {/* <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
           href="/Mayank_SDE_1.pdf"
           download
         >
           Download CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
-        </a>
+        </a> */}
         </motion.div>
         <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium pt-3"

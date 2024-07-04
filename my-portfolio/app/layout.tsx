@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Mayank | Personal Portfolio",
-  description: "Software Engineer with 1.5 years of experience.",
+  description: "Software Engineer with 2 years of experience.",
 };
 
 export default function RootLayout({
