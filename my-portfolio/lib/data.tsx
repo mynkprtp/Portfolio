@@ -76,10 +76,10 @@ export const projectsData = [
     imageUrl: ftribe,
   },
   {
-    title: "Kanban - Make Notes",
+    title: "Kanban App",
     link: "https://kanban-app-gamma-seven.vercel.app/",
     description: 
-    "Developed a full stack Kanban application to make beautiful notes with features to edit and use emojis. Implemented user authentication and authorization with JWT and bcrypt for secure access. ",
+    "Developed a full stack Kanban application to make beautiful notes with features to edit and use emojis.",
     tags: ["React", "Node.js", "Express.js", "MongoDB", "JWT", "Javascript", "Redux"],
     imageUrl: kanban
   },
