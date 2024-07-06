@@ -58,8 +58,9 @@ export const experiencesData = [
   {
     title: "SDE Intern",
     location: "Wisteli Informatics, Noida",
-    description: ["Leveraged D3.js to build a real-time graph rendering engine, enabling seamless updates and responsiveness within the user dashboard."
-    ,"Restructured reusable Angular 8 components for the landing page, resulting in 10 % improvement in user engagement."],
+    description: ["Developed UI components like asynchronous Chart Update feature using Angular and NG-ZORRO.",
+"Introduced comprehensive error handling and logging, improving application reliability and maintainability by 20%.",
+"Utilized asynchronous calls to enhance application responsiveness and performance, ensuring efficient handling of multiple concurrent requests."],
     icon: React.createElement(CgWorkAlt),
     tags: ["Angular", "Javascript", "ExressJs","Typescript"],
     date: "Dec 2021 - Feb 2022",
@@ -71,13 +72,13 @@ export const projectsData = [
     title: "3FTribe",
     link: "https://github.com/mynkprtp/3FTribe",
     description:
-      "Delivered a fullstack app for promoting peronal training. It allows users to connect using Calendly. It utilises localDB for CART related features",
+      "Delivered a FrontEnd app for promoting peronal training. It allows users to connect using Calendly. It utilises localDB for CART related features",
     tags: ["Javascript", "Angular.js", "HTML/CSS", "Email.js", "Stripe"],
     imageUrl: ftribe,
   },
   {
     title: "Kanban App",
-    link: "https://kanban-app-gamma-seven.vercel.app/",
+    link: "https://github.com/mynkprtp/kanban-app",
     description: 
     "Developed a full stack Kanban application to make beautiful notes with features to edit and use emojis.",
     tags: ["React", "Node.js", "Express.js", "MongoDB", "JWT", "Javascript", "Redux"],
