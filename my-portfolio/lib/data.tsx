@@ -38,7 +38,7 @@ export const links = [
   },
 ] as const;
 
-export const achievements = ["Secured Global Rank 2537 in Google HashCode 2021.", "Secured Global Rank 91 in Codechef October Long Challenge among 20k Participants.","Secured Global Rank 1071 in LeetcodeWeekly.","Codechef maxrated 2053 - 5 Star.","Leetcode maxrated 1763 - Top 9 %","Contributed to 4 repositories during Hacktoberfest 2022","Solved over 600 coding problems on various coding platforms."
+export const achievements = ["Secured Global Rank 2537 in Google HashCode 2021.", "Secured Global Rank 91 in Codechef October Long Challenge among 20k Participants.","Secured Global Rank 1071 in LeetcodeWeekly.","Codechef maxrated 2053 - 5 Star.","Leetcode maxrated 1770 - Top 9 %","Contributed to 4 repositories during Hacktoberfest 2022","Solved over 600 coding problems on various coding platforms."
 ] as const;
 
 export const experiencesData = [
